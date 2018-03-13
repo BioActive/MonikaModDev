@@ -52,7 +52,7 @@ label greeting_gooday:
             m "We can talk all day about your problems, if you want to."
             m 3r "I want to try and make sure you're always happy."
             m 1h "Because that's what makes me happy."
-            m 1b "I'll be sure try my best to cheer you up, I promise."
+            m 1b "I'll be sure to try my best to cheer you up, I promise."
     return
 
 init 5 python:
