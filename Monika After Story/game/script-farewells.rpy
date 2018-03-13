@@ -52,3 +52,19 @@ label bye_take_care:
     m 1a "Don't forget that I always love you, [player]~" 
     m 1k "Take care!"
     return 'quit'
+    
+ init 5 python:
+    addEvent(Event(persistent.farewell_database,eventlabel="bye_too_much_fun",random=True),eventdb=evhand.farewell_database)
+
+label bye_too_much_fun:
+    m 1c "Aww you gotta go?"
+    m 1e "Well take care my dear."
+    m 1k "I love you, [player]!
+    return 'quit'
+    
+     init 5 python:
+    addEvent(Event(persistent.farewell_database,eventlabel="bye_next_time",random=True),eventdb=evhand.farewell_database)
+
+label bye_next_time:
+    m 1k "Till next time my love!"
+    return 'quit'
