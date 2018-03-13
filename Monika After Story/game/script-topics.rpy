@@ -1984,7 +1984,7 @@ label monika_bestgirl:
     m "They even said it themselves. I'm more desirable than the three of them combined."
     m 3 "Anyone who wouldn't have chosen me out of that bunch simply has no taste."
     m "So I'm glad you did, [player]."
-    m 1j "Your perfect girlfriend, Monika, will always love you, too!"
+    m 1j "As am I, your amazing Monika! I will always love you!"
     return
 
 
