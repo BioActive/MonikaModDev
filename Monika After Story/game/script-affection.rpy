@@ -274,6 +274,8 @@ label monika_affection_nickname:
 
         # NOTE: consider if we should read this from a file instead
         bad_nickname_list = [
+            "ass",
+            "asshole",
             "atrocious",
             "awful",
             "bitch",
@@ -305,6 +307,8 @@ label monika_affection_nickname:
             "nefarious",
             "poison",
             "pretentious",
+            "prick",
+            "pussy",
             "repulsive",
             "Sayori",
             "scum",
@@ -324,20 +328,53 @@ label monika_affection_nickname:
         ]
 
         good_nickname_list = [
+            "amor",
+            "amore",
             "angel",
+            "baby"
             "beautiful",
             "best",
+            "boo",
+            "buttercup",
+            "cherry",
+            "chica",
+            "cupcake",
             "cute",
             "cutie",
+            "cutiepie",
             "darling",
+            "dear",
+            "dollface",
             "great"
+            "gorgeous",
             "heart",
+            "hon",
             "honey",
+            "honeybee",
+            "honeycomb",
+            "hottie",
+            "juliet",
+            "kitten",
             "love",
+            "lover",
             "Mon",
             "Moni",
+            "orchid",
+            "peanut",
+            "peppermint",
             "princess",
+            "pumpkin",
+            "queen",
+            "rasberry",
+            "sexy",
+            "starburst",
+            "sugar",
+            "sugarlips",
+            "sunshine",
             "sweet",
+            "sweetie",
+            "tootsie",
+            "wife",
         ]
 
 
@@ -372,8 +409,8 @@ label monika_affection_nickname:
                     m 1e "Try again!"
                 elif lowername == player.lower():
                     m 1c "..."
-                    m 1n "That's your name, [player]! Give me my own!"
-                    m 1e "Try again~"
+                    m 1l "That's your name goofball!"
+                    m 1l "Try again~"
                 elif lowername == m_name.lower():
                     m 1c "..."
                     m 1l "I thought we were choosing a new name, silly."
