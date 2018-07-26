@@ -174,6 +174,17 @@ label bye_take_care:
     m 1eua "Don't forget that I always love you, [player]~"
     m 1hub "Take care!"
     return 'quit'
+    
+init 5 python:
+    addEvent(Event(persistent.farewell_database,eventlabel="bye_rememberr",unlocked=True,random=True),eventdb=evhand.farewell_database)
+
+label bye_rememberr:
+    m 1eua "Goodbye for now, [player]."
+    m 1eua "Wait! Before you go though, I want you to remember."
+    m 1eua "I will always be here for you."
+    m 1eua "Always, mi amor."
+    m 1eua "Love you!"
+    return 'quit'
 
 init 5 python:
     rules = dict()
@@ -272,6 +283,7 @@ label bye_prompt_sleep:
         m 1hub "Good night!"
         m 1hksdlb "Or morning, rather. Ahaha~"
         m 1hua "Sweet dreams!"
+        m 1hua "Love you!"
 
     elif 5 <= curr_hour < 12:
         # you probably stayed up the whole night
